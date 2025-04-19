@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_e_commerce/widgets/LoginAndRegisterAppBar.dart';
+import 'package:susu_etawa/widgets/LoginAndRegisterAppBar.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});

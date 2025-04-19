@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_e_commerce/widgets/ProfileListSets.dart';
+import 'package:susu_etawa/widgets/ProfileListSets.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -14,7 +14,7 @@ class ProfilePage extends StatelessWidget {
           Align(
             alignment: Alignment.topCenter,
             child: Container(
-              padding: EdgeInsets.all(50), // Atur padding container
+              padding: const EdgeInsets.all(50), // Atur padding container
               decoration: const BoxDecoration(
                 color: Color(0xFF3C7A3C),
                 borderRadius: BorderRadius.only(

@@ -33,11 +33,13 @@ class ChatListView extends StatelessWidget {
     ),
   ];
 
+  ChatListView({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
       shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(), // Tidak scroll sendiri
+      physics: const NeverScrollableScrollPhysics(), // Tidak scroll sendiri
       itemCount: contacts.length,
       itemBuilder: (context, index) {
         final contact = contacts[index];

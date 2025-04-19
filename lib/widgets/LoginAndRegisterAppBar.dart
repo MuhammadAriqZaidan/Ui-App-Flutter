@@ -11,7 +11,7 @@ class LoginRegisterAppBar extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            padding: EdgeInsets.all(10),
+            padding: const EdgeInsets.all(10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(50),
               color: Colors.white

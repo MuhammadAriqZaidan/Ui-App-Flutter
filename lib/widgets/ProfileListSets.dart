@@ -8,9 +8,9 @@ class ProfileList extends StatelessWidget {
     return ListView(
       children: [
         Container(
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           decoration: BoxDecoration(
-            color: Color(0xFFEDECF2),
+            color: const Color(0xFFEDECF2),
             borderRadius: BorderRadius.circular(25),
           ),
           child: const ListTile(
@@ -19,9 +19,9 @@ class ProfileList extends StatelessWidget {
           ),
         ),
         Container(
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           decoration: BoxDecoration(
-            color: Color(0xFFEDECF2),
+            color: const Color(0xFFEDECF2),
             borderRadius: BorderRadius.circular(25),
           ),
           child: const ListTile(
@@ -30,40 +30,7 @@ class ProfileList extends StatelessWidget {
           ),
         ),
         Container(
-          padding: EdgeInsets.all(15),
-          decoration: BoxDecoration(
-            color: Color(0xFFEDECF2),
-            borderRadius: BorderRadius.circular(25),
-          ),
-          child: const ListTile(
-            leading: Icon(Icons.lock),
-            title: Text("Change Password"),
-          ),
-        ),
-        Container(
-          padding: EdgeInsets.all(15),
-          decoration: BoxDecoration(
-            color: Color(0xFFEDECF2),
-            borderRadius: BorderRadius.circular(25),
-          ),
-          child: const ListTile(
-            leading: Icon(Icons.bookmark),
-            title: Text("Saved"),
-          ),
-        ),
-        Container(
-          padding: EdgeInsets.all(15),
-          decoration: BoxDecoration(
-            color: Color(0xFFEDECF2),
-            borderRadius: BorderRadius.circular(25),
-          ),
-          child: const ListTile(
-            leading: Icon(Icons.money),
-            title: Text("Credits"),
-          ),
-        ),
-        Container(
-          padding: EdgeInsets.all(15),
+          padding: const EdgeInsets.all(15),
           decoration: BoxDecoration(
             color: Colors.red,
             borderRadius: BorderRadius.circular(25),
